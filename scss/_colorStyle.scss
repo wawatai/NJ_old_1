@@ -47,6 +47,7 @@ $header_bottomBG: #ffaa1a;
     align-items: center;
     justify-content: center;
     position: relative;
+    transition: 0.3s all;
     overflow: hidden;
     padding: 0 20px;
 
@@ -74,6 +75,7 @@ $headerListBtn_Border: #ffffff;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    transition: 0.3s all;
     padding: 0 20px;
 
     &:hover,&:active,&.active {

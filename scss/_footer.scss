@@ -48,4 +48,22 @@ footer {
             font-weight: bold;
         }
     }
+
+    @media only screen and (max-width: 1400px) {
+        
+        .top {
+
+            .center {
+                width: calc(100% - 120px);
+
+                ul {
+
+                    li {
+                        padding: 0 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }

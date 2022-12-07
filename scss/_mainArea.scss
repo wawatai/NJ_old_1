@@ -876,13 +876,45 @@
 
                         p {
                             color: $mainArea_gameBox_Color;
-                            font-size: 1.6vw;
+                            font-size: 1.4vw;
                             font-weight: bold;
                             text-shadow: -2px 0 0 $mainArea_gameBox_textShadow,2px 0 0 $mainArea_gameBox_textShadow,0 -2px 0 $mainArea_gameBox_textShadow,0 2px 0 $mainArea_gameBox_textShadow;
                             position: absolute;
                             left: 50%;
                             top: 58%;
                             transform: translate(-50%,-50%);
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1560px) {
+            
+            .gameBox {
+
+                ul {
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 80px 120px;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1260px) {
+            
+            .gameBox {
+
+                ul {
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 50px 60px;
+
+                    li {
+
+                        .textBox {
+
+                            p {
+                                text-shadow: none;
+                            }
                         }
                     }
                 }

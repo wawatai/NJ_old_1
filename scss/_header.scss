@@ -18,6 +18,7 @@ header {
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            transition: 0.3s all;
             margin: 0 auto;
 
             .inputArea {
@@ -117,6 +118,7 @@ header {
             height: 100%;
             display: flex;
             justify-content: flex-end;
+            transition: 0.3s all;
             margin: 0 auto;
 
             ul {
@@ -322,6 +324,63 @@ header {
                         transform: scale(1) rotate(0deg);
                     }
                 }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1750px) {
+        
+        .bottom {
+
+            .center {
+
+                ul {
+                    margin: 0;
+
+                    li {
+
+                        div {
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1490px) {
+        
+        .bottom {
+
+            .center {
+
+                ul {
+                    margin: 0;
+
+                    li {
+
+                        div {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1240px) {
+        
+        .top {
+
+            .center {
+                width: calc(100% - 240px);
+            }
+        }
+
+        .bottom {
+
+            .center {
+                width: calc(100% - 120px);
             }
         }
     }
